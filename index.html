@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NexTechCommerce — katalog produk teknologi responsif: laptop, smartphone, aksesoris, dan perangkat pendukung produktivitas.">
+
+    <title>NexTechCommerce — Katalog Produk Teknologi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS sendiri -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#katalog">Langsung ke katalog produk</a>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" aria-label="Navigasi utama">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#home">
+                <i class="bi bi-cpu-fill" aria-hidden="true"></i>
+                NexTechCommerce
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu"
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Buka menu navigasi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto align-items-md-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#katalog">Katalog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+
+                    <li class="nav-item ms-md-2">
+                        <a class="btn btn-sm btn-accent" href="#katalog">
+                            <i class="bi bi-cart3" aria-hidden="true"></i>
+                            Belanja
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section id="home" class="hero text-center">
+        <div class="container">
+
+            <span class="badge-eyebrow">Toko Resmi Perangkat Teknologi</span>
+
+            <h1 class="fw-bold">
+                Katalog Produk Teknologi
+            </h1>
+
+            <p class="lead text-secondary hero-lead">
+                Temukan laptop, smartphone, dan aksesoris pilihan untuk menunjang kuliah, kerja, dan produktivitas harianmu.
+            </p>
+
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="#katalog" class="btn btn-accent btn-lg">
+                    Lihat Produk
+                </a>
+                <a href="#kontak" class="btn btn-outline-light btn-lg btn-outline-ink">
+                    Hubungi Kami
+                </a>
+            </div>
+
+            <dl class="hero-stats row g-3 justify-content-center">
+                <div class="col-6 col-sm-3">
+                    <dt>16+</dt>
+                    <dd>Produk pilihan</dd>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <dt>4.9/5</dt>
+                    <dd>Rata-rata rating</dd>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <dt>24 Jam</dt>
+                    <dd>Respons layanan</dd>
+                </div>
+            </dl>
+
+        </div>
+    </section>
+
+
+    <!-- KATALOG -->
+    <main>
+    <section id="katalog" class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Daftar Produk</h2>
+                <p class="text-secondary">Semua produk bergaransi resmi dan siap kirim ke seluruh Indonesia.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- PRODUK 1 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <span class="badge-tag badge-tag--best">Terlaris</span>
+                        <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Laptop performa tinggi berwarna abu-abu, tampak terbuka di atas meja kerja"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Laptop Performance</h3>
+                            <p class="rating" aria-label="Rating 4.8 dari 5">★★★★★ <span class="rating-num">4.9</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Laptop untuk kuliah, kerja, dan pemrograman dengan performa tinggi.</p>
+                            <p class="price">Rp 20.500.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 2 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Smartphone 5G warna hitam dengan layar menyala"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Smartphone 5G</h3>
+                            <p class="rating" aria-label="Rating 4.7 dari 5">★★★★★ <span class="rating-num">4.7</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Smartphone modern dengan jaringan 5G untuk kebutuhan sehari-hari.</p>
+                            <p class="price">Rp 27.000.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 3 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Headphone wireless warna hitam di atas permukaan kayu"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Headphone Wireless</h3>
+                            <p class="rating" aria-label="Rating 4.6 dari 5">★★★★★ <span class="rating-num">4.8</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Audio nyaman dengan noise cancelling untuk belajar dan hiburan.</p>
+                            <p class="price">Rp 11.500.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 4 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <span class="badge-tag badge-tag--new">Baru</span>
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Smartwatch aktif dengan tali silikon hitam"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Smartwatch Active</h3>
+                            <p class="rating" aria-label="Rating 4.5 dari 5">★★★★★ <span class="rating-num">4.7</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Jam pintar dengan pelacak kesehatan untuk aktivitas sehari-hari.</p>
+                            <p class="price">Rp 18.200.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 5 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Mouse gaming dengan pencahayaan RGB"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Gaming Mouse</h3>
+                            <p class="rating" aria-label="Rating 4.6 dari 5">★★★★★ <span class="rating-num">5.0</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Mouse ergonomis dengan sensor presisi tinggi untuk gaming.</p>
+                            <p class="price">Rp 3.500.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 6 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Keyboard mekanis dengan lampu latar berwarna"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Mechanical Keyboard</h3>
+                            <p class="rating" aria-label="Rating 4.7 dari 5">★★★★★ <span class="rating-num">4.7</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Keyboard mekanis yang nyaman, responsif, dan tahan lama.</p>
+                            <p class="price">Rp 4.000.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 7 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Monitor IPS 24 inci menampilkan tampilan warna cerah"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Monitor IPS 24 Inch</h3>
+                            <p class="rating" aria-label="Rating 4.5 dari 5">★★★★★ <span class="rating-num">4.8</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Monitor dengan warna akurat untuk belajar, kerja, dan hiburan.</p>
+                            <p class="price">Rp 5.400.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 8 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Earbuds TWS putih dalam wadah pengisi daya terbuka"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">TWS Earbuds</h3>
+                            <p class="rating" aria-label="Rating 4.4 dari 5">★★★★☆ <span class="rating-num">4.9</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Earbuds wireless dengan desain ringkas dan suara jernih.</p>
+                            <p class="price">Rp 2.000.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 9 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <span class="badge-tag badge-tag--new">Baru</span>
+                        <img src="https://images.unsplash.com/photo-1604160687800-f7799a525a33?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Power bank hitam dengan aksen ungu di samping ponsel"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Power Bank 20.000mAh</h3>
+                            <p class="rating" aria-label="Rating 4.6 dari 5">★★★★★ <span class="rating-num">4.6</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Daya besar dengan fast charging, cocok untuk mobilitas tinggi sepanjang hari.</p>
+                            <p class="price">Rp 750.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 10 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1779896412214-52031d27211a?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Tangan memegang SSD portabel berwarna merah muda"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">SSD External 1TB</h3>
+                            <p class="rating" aria-label="Rating 4.7 dari 5">★★★★★ <span class="rating-num">4.7</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Penyimpanan portabel berkecepatan tinggi untuk data, foto, dan proyek kuliah.</p>
+                            <p class="price">Rp 1.350.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 11 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1549400854-b4300f444934?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Speaker Bluetooth portabel berwarna hitam"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Speaker Bluetooth Portable</h3>
+                            <p class="rating" aria-label="Rating 4.5 dari 5">★★★★★ <span class="rating-num">5.0</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Suara jernih dan bass mantap, tahan air untuk dipakai di luar ruangan.</p>
+                            <p class="price">Rp 850.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 12 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <span class="badge-tag badge-tag--best">Terlaris</span>
+                        <img src="https://images.unsplash.com/photo-1750975314977-374f2290db53?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Webcam HD terpasang di atas monitor komputer"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Webcam HD 1080p</h3>
+                            <p class="rating" aria-label="Rating 4.6 dari 5">★★★★★ <span class="rating-num">5.0</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Gambar jernih untuk kelas daring, meeting kerja, dan konten kreatif.</p>
+                            <p class="price">Rp 650.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 13 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1640622656891-04960a7aa678?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Tablet 10 inci diletakkan di atas meja kayu"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Tablet 10 Inch</h3>
+                            <p class="rating" aria-label="Rating 4.5 dari 5">★★★★★ <span class="rating-num">4.8</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Ringan dan responsif, cocok untuk membaca, mencatat, dan hiburan saat bepergian.</p>
+                            <p class="price">Rp 3.200.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 14 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <span class="badge-tag badge-tag--new">Baru</span>
+                        <img src="https://images.unsplash.com/photo-1606904825846-647eb07f5be2?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Router WiFi 6 putih di atas meja"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Router WiFi 6</h3>
+                            <p class="rating" aria-label="Rating 4.6 dari 5">★★★★★ <span class="rating-num">4.6</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Jangkauan luas dan koneksi stabil untuk kebutuhan kerja, kuliah, dan streaming di rumah.</p>
+                            <p class="price">Rp 890.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 15 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <img src="https://images.unsplash.com/photo-1744306423919-830b9f4b11e8?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Mini drone lengkap dengan remote control"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Mini Drone Kamera</h3>
+                            <p class="rating" aria-label="Rating 4.4 dari 5">★★★★☆ <span class="rating-num">4.9</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Ringkas dan mudah dikendalikan, cocok untuk pemula yang ingin mencoba videografi udara.</p>
+                            <p class="price">Rp 1.750.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PRODUK 16 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <article class="card product-card h-100">
+                        <span class="badge-tag badge-tag--best">Terlaris</span>
+                        <img src="https://images.unsplash.com/photo-1591290619618-904f6dd935e3?w=600"
+                             class="product-img card-img-top img-fluid"
+                             alt="Wireless charging pad putih di atas meja kayu"
+                             loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold">Wireless Charging Pad</h3>
+                            <p class="rating" aria-label="Rating 4.7 dari 5">★★★★★ <span class="rating-num">4.7</span></p>
+                            <p class="card-text text-secondary flex-grow-1">Isi daya tanpa kabel untuk smartphone, praktis diletakkan di meja kerja atau nakas.</p>
+                            <p class="price">Rp 420.000</p>
+                            <button class="btn btn-accent w-100" type="button">Beli Sekarang</button>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer id="kontak" class="site-footer text-center py-5">
+        <div class="container">
+
+            <p class="mb-1 fw-bold fs-5">
+                <i class="bi bi-cpu-fill" aria-hidden="true"></i>
+                NexTechCommerce
+            </p>
+
+            <p class="mb-3 footer-desc">
+                Belanja perangkat teknologi terpercaya dengan garansi resmi dan pengiriman ke seluruh Indonesia.
+            </p>
+
+            <ul class="list-inline footer-social mb-3">
+                <li class="list-inline-item"> <a href="https://instagram.com/dhanyrolas" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i> </a></li>
+                <li class="list-inline-item"><a href="https://wa.me/6282181795113" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-whatsapp"></i> </a></li>
+                <li class="list-inline-item"><a href="mailto:dhanyrolas21@gmail.com">
+            <i class="bi bi-envelope"></i> </a>
+</li>
+            </ul>
+
+            <hr class="footer-divider">
+
+            <p class="mb-1 small">&copy; 2026 Dhany Rolas | Tugas Pemrograman Web</p>
+            <p class="mb-0 small text-uppercase footer-tag">Tugas Pemrograman Web — Pertemuan 3 (Katalog Produk)</p>
+            
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
