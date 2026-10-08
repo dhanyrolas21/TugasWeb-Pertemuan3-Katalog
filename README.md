@@ -64,7 +64,7 @@ Diuji pada 3 breakpoint utama: **HP, Tablet, dan Desktop**.
 *(Tambahkan screenshot hasil pengujian di setiap breakpoint berikut ini)*
 
 ### 1. HP (< 576px) — 1 kolom
-![Tampilan HP]![alt text](image.png)
+![Tampilan HP]! ![alt text](image.png)
                 ![alt text](image-1.png)
                 ![alt text](image-2.png)
                 ![alt text](image-3.png)
