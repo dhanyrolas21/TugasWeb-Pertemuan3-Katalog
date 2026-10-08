@@ -71,17 +71,18 @@ Diuji pada 3 breakpoint utama: **HP, Tablet, dan Desktop**.
 
 ### 2. Tablet (576px – 991px) — 2 kolom
 ![Tampilan tablet]![alt text](image-4.png)
-                    ![alt text](image-5.png)
-                    ![alt text](image-6.png)
+               ![alt text](image-5.png)
+               ![alt text](image-6.png)
 
 ### 3. Desktop (≥ 992px) — 3–4 kolom, rapi hingga 4 baris
 ![Tampilan desktop]![alt text](image-7.png)
-                             ![alt text](image-8.png)
-                             ![alt text](image-9.png)
-                             ![alt text](image-10.png)
+                ![alt text](image-8.png)
+                ![alt text](image-9.png)
+                ![alt text](image-10.png)
                     
 
 ## Developer
 
 **Dhany Rolas**
+**Mata Kuliah Pemrograman Web**
 Mahasiswa Ilmu Komputer, Universitas Negeri Medan
